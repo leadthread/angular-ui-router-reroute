@@ -1,0 +1,14 @@
+{
+  "name": "angular-ui-router-reroute",
+  "main": "index.js",
+  "homepage": "https://github.com/zenapply/angular-ui-router-reroute",
+  "authors": [
+    "Tyler Arbon <tylercd100@gmail.com>"
+  ],
+  "description": "",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "angularjs#^1.5.7",
+    "angular-ui-router": "ui-router#^0.3.1"
+  }
+}
