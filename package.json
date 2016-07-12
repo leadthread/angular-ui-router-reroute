@@ -1,6 +1,6 @@
 {
   "name": "angular-ui-router-reroute",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "This package solves the problem of having a parent state that needs to automatically redirect to a child state.",
   "main": "index.js",
   "scripts": {

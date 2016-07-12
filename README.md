@@ -34,7 +34,7 @@ In your controller for a particular state, inject the `$reroute` service.
 app.controller('PageController',['$state','$reroute',function($state,$reroute){
 	/**
 	 * param1: The name of the state that this controller belongs to
-	 * param2: The redirect callback
+	 * param2: The redirect callback or you can pass a string to designate the default state for redirection
 	 */
 	$reroute.onChange('page',function(){
 		$state.go('page.create');
