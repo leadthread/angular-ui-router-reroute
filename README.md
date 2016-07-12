@@ -37,7 +37,7 @@ app.controller('PageController',['$state','$reroute',function($state,$reroute){
 	 * param2: The redirect callback
 	 */
 	$reroute.onChange('page',function(){
-		$state.go('page.default');
+		$state.go('page.create');
 	})
 }]);
 ```
