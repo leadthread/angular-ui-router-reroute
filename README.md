@@ -36,8 +36,27 @@ app.controller('PageController',['$state','$reroute',function($state,$reroute){
 	 * param1: The name of the state that this controller belongs to
 	 * param2: The redirect callback or you can pass a string to designate the default state for redirection
 	 */
-	$reroute.onChange('page',function(){
+	var listener = $reroute.onChange('page',function(){
 		$state.go('page.create');
-	})
+	});
+
+	//Stop listening
+	$scope.$on('$destroy',listener);
 }]);
+```
+
+More examples:
+```js
+// Pass string
+$reroute.onChange('page','page.create');
+
+// Return string
+$reroute.onChange('page',function(){
+	return 'page.create';
+});
+
+// Use the $state service
+$reroute.onChange('page',function(){
+	$state.go('page.create');
+});
 ```
