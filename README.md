@@ -26,7 +26,8 @@ Declare the module as a dependency
 var app = angular.module('app',[
 	'ui-router',
 	'ui-router.reroute'
-])
+]);
+```
 
 In your controller for a particular state, inject the `$reroute` service.
 ```js
