@@ -3,6 +3,7 @@
   "main": "index.js",
   "homepage": "https://github.com/zenapply/angular-ui-router-reroute",
   "authors": [
+    "Daniel Avelares <danielavelares@gmail.com>",
     "Tyler Arbon <tylercd100@gmail.com>"
   ],
   "description": "",
