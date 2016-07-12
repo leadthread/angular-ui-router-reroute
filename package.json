@@ -1,6 +1,6 @@
 {
   "name": "angular-ui-router-reroute",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This package solves the problem of having a parent state that needs to automatically redirect to a child state.",
   "main": "index.js",
   "scripts": {
@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/zenapply/angular-ui-router-reroute/issues"
   },
-  "homepage": "https://github.com/zenapply/angular-ui-router-reroute#readme"
+  "homepage": "https://github.com/zenapply/angular-ui-router-reroute#readme",
+  "dependencies": {
+    "angular": "^1.5.7",
+    "angular-ui-router": "^0.3.1"
+  }
 }

@@ -24,8 +24,8 @@ NPM
 Declare the module as a dependency
 ```js
 var app = angular.module('app',[
-	'ui-router',
-	'ui-router.reroute'
+	'ui.router',
+	'ui.router.reroute'
 ]);
 ```
 

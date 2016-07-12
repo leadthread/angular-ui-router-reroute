@@ -1,7 +1,7 @@
 ;(function(){
   'use strict';
 
-  var app = angular.module('ui-router.rerouter',['ui-router']);
+  var app = angular.module('ui.router.rerouter',['ui.router']);
   
   app.factory('$reroute',["$state",'$rootScope',function($state,$rootScope){
   	return {
