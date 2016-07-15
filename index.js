@@ -40,7 +40,9 @@
   		onChange: function(baseState, cb){
   			
         //Immediately redirect
-        redirect(cb);
+        if ($state.is(baseState)){
+          redirect(cb);
+        }
 
   			return $rootScope.$on('$stateChangeStart',function (event, toState){
   				if ($state.is(baseState) || (toState && toState.name == baseState)){

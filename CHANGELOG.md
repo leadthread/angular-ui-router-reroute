@@ -1,3 +1,6 @@
+### 1.1.2
+- Fix for npm
+
 ### 1.1.1
 - When accessing a child state its parent's reroute functions will not be called automatically
 
